@@ -24,6 +24,6 @@ yarn
 ...then start webpack:
 
 ```bash
-yarn
+yarn dev
 ```
 
