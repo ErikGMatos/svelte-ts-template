@@ -3,6 +3,11 @@
   "trailingComma": "es5",
   "arrowParens": "avoid",
   "bracketSpacing": false,
+  "svelteAllowShorthand": false,
+  "svelteBracketNewLine": false,
+  "svelteSortOrder": "options-scripts-markup-styles",
+  "svelteStrictMode": true,
+  "svelteIndentScriptAndStyle": true,
   "overrides": [
     {
       "files": "*.ts",
