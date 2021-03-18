@@ -5,7 +5,7 @@ This is a project template for [Svelte](https://svelte.dev) apps.
 Clone the project:
 
 ```bash
-git https://github.com/ErikGMatos/svelte-ts-template.git
+git clone https://github.com/ErikGMatos/svelte-ts-template.git
 cd svelte-ts-template
 ```
 
