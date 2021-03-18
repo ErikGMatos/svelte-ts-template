@@ -1,0 +1,26 @@
+main {
+  max-width: 240px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+
+  h1 {
+    color: #ff3e00;
+    font-weight: 100;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+
+  p {
+    display: flex;
+    color: #51ff00;
+    transform: rotate(30deg);
+    appearance: none;
+    backdrop-filter: inherit;
+  }
+
+  @media (min-width: 640px) {
+    display: block;
+    max-width: none;
+  }
+}
