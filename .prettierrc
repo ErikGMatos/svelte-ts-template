@@ -2,17 +2,24 @@
   "singleQuote": true,
   "trailingComma": "es5",
   "arrowParens": "avoid",
-  "bracketSpacing": false,
-  "svelteAllowShorthand": false,
-  "svelteBracketNewLine": false,
-  "svelteSortOrder": "options-scripts-markup-styles",
-  "svelteStrictMode": true,
-  "svelteIndentScriptAndStyle": true,
+  "bracketSpacing": true,
   "overrides": [
     {
       "files": "*.ts",
       "options": {
-        "parser": "typescript"
+        "parser": "typescript",
+        "bracketSpacing": true
+      }
+    },
+    {
+      "files": "*.svelte",
+      "options": {
+        "svelteAllowShorthand": false,
+        "svelteBracketNewLine": false,
+        "svelteSortOrder": "options-scripts-markup-styles",
+        "svelteStrictMode": true,
+        "svelteIndentScriptAndStyle": true,
+        "bracketSpacing": true
       }
     }
   ]
