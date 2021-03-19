@@ -17,7 +17,7 @@ cd svelte-ts-template
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd svelte-ts-template
 yarn
 ```
 
