@@ -8,7 +8,7 @@ const preprocessOptions = require('./svelte.config').preprocessOptions;
 
 module.exports = {
   entry: {
-    bundle: ['./src/main.ts'],
+    bundle: ['./src/app.ts'],
   },
   resolve: {
     alias: {

@@ -12,11 +12,7 @@ main {
   }
 
   p {
-    display: flex;
     color: #51ff00;
-    transform: rotate(30deg);
-    appearance: none;
-    backdrop-filter: inherit;
   }
 
   @media (min-width: 640px) {
